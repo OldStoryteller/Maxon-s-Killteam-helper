@@ -1,3 +1,8 @@
+import androidx.room.Dao
+import androidx.room.Query
+import androidx.room.Insert
+import androidx.room.Delete
+
 @Dao
 interface TeamDao {
     @Query("SELECT * FROM teams")
